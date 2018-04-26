@@ -6,3 +6,6 @@
 .cabal-sandbox/*
 cabal.sandbox.config
 *.save0
+*.save*
+dist/
+haskell4.cabal
