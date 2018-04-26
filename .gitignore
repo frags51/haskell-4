@@ -5,3 +5,4 @@
 *.o
 .cabal-sandbox/*
 cabal.sandbox.config
+*.save0
