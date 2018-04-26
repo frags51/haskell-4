@@ -1,4 +1,4 @@
-# Revision history for haskell4
+# Revision history for Haskell-learn
 
 ## 0.1.0.0  -- YYYY-mm-dd
 
