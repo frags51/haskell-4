@@ -1,7 +1,7 @@
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 
-module Replicant.Types
+module Bender.Types
   ( Bot(..)
   , BotId
   , BotInfo(..)
@@ -9,7 +9,6 @@ module Replicant.Types
   , BotToken
   , Message(..)
   , Namespace
-  , Replicant(..)
   , UserId
   , User(..)
   ) where
@@ -20,7 +19,6 @@ import           Control.Monad.Trans.Resource (MonadBaseControl)
 import           Data.Aeson
 import           Data.Text                    (Text)
 import           Data.ByteString              (ByteString)
-import qualified Database.Redis               as Redis
 
 type BotId = Text
 type UserId = Text
