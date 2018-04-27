@@ -5,9 +5,11 @@ import qualified Data.Text.IO as I
 
 import BAdapter
 import qualified BAdapter.Shell as S
+import qualified Plugins.Echo as PEcho
 
 main :: IO ()
 main = do 
     ff <- I.getLine
-    I.putStrLn (hear $ S.Shell ff)
-
+    --I.putStrLn . hear $ S.Shell ff -- Function Composition
+    hear $ S.Shell ff
+    return ()
