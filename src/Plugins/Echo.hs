@@ -10,7 +10,7 @@ where
     tm = mkRegex "[cC]at"
 
     f :: Text -> Text
-    f x = x
+    f x = "Hey, you entered cat somewhere!"
 
     pExport :: PluginD
     pExport = PluginD "Echo" tm f

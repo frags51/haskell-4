@@ -33,7 +33,7 @@ where
                 return $ inp x
  
     myFunc :: Maybe (String, String, String, [String]) -> (String, String, String, [String])
-    myFunc x = fromMaybe ("", "", "", ["B"]) x
+    myFunc x = fromMaybe ("", "", "", [""]) x
 
     get2nd :: (String, String, String, [String]) -> String
     get2nd (_, x, _, _) = x
