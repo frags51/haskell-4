@@ -7,7 +7,7 @@ where
     import qualified Data.Text.IO as I
 
     import Data.Maybe
-
+    import Data.List (findIndices)
     import Text.Regex
 
     import BTypes (PluginD(..))
@@ -25,9 +25,10 @@ where
                 -- Lists are Monads!
                 --I.putStrLn $ T.pack $ plgLst x >>= ((\y ->(getMatchString $ matchRegexAll (toMatch  y) (T.unpack $ inp x))))
                 
-                let j = T.pack $ plgLst x >>= ((\y ->(getMatchString $ matchRegexAll (toMatch  y) (T.unpack $ inp x))))
-                
-                I.putStrLn $ T.pack . boolToString $ not (T.null j)
+                --let j = T.pack $ plgLst x >>= ((\y ->(getMatchString $ matchRegexAll (toMatch  y) (T.unpack $ inp x))))
+                let k = myHead $ findIndices ((\y ->(isNotEmptyStr $ matchRegexAll (toMatch  y) (T.unpack $ inp x)))) (plgLst x)
+                (action ((plgLst x) !! k)) (inp x) 
+                --I.putStrLn $ T.pack . boolToString $ not (T.null j)
                 -- Lifts it into a monad 
                 -- This is not actual return. This just elevates a type to a monad
                 return $ inp x
@@ -40,18 +41,23 @@ where
 
     getMatchString = get2nd . myFunc
 
-    {-
+    
     get2nd2 :: (String, String, String, [String]) -> Bool
     get2nd2 (_, "", _, _) = False
     get2nd2 (_, _, _, _) = True
-    -}
+    
 
-    isEmptyStr :: String -> Bool
-    isEmptyStr x = case x of
-                    "" -> False
-                    otherwise -> True
+    isNotEmptyStr = get2nd2 . myFunc
+   
 
     boolToString :: Bool -> String
     boolToString True = "TRUE"
     boolToString False = "FALSE"
-     
+
+    {-| Not my foot :P 
+        | Head of empty list of ints : -1
+    -}
+    myHead :: [Int] -> Int
+    myHead [] = -1
+    myHead (x:xs) = x
+    
