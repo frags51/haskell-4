@@ -32,6 +32,7 @@ import Control.Monad.Reader.Class
 {-|
  | A new type of monad (transform), having error handling etc. 
  | Take whatever input and return something of type BenderT e c m a
+ | unBenderT is an accessor Function
 -}
 newtype BenderT e c m a = BenderT { unBenderT :: ExceptT e (ReaderT c m) a } deriving (Functor, Applicative, 
                                                                                 Monad, MonadIO, MonadReader c, 
