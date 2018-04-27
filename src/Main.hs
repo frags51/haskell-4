@@ -11,5 +11,5 @@ main :: IO ()
 main = do 
     ff <- I.getLine
     --I.putStrLn . hear $ S.Shell ff -- Function Composition
-    hear $ S.Shell ff
+    hear $ S.Shell ff [PEcho.pExport, PEcho.pExport]
     return ()

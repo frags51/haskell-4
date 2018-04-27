@@ -6,13 +6,39 @@ where
     import qualified Data.Text as T
     import qualified Data.Text.IO as I
 
+    import Data.Maybe
+
+    import Text.Regex
+
     import BTypes (PluginD(..))
 
-    data Shell = Shell {name :: T.Text}
+    {-| This is the constructor for data Shell.
+    | Takes in input string and a list of plugins
+
+    -}
+    data Shell = Shell {inp :: T.Text
+                        , plgLst :: [PluginD]
+                        }
 
     instance IsAdapter Shell where
         hear x = do -- Should do IO and return T.Text
-                I.putStrLn $ name x
+                -- Lists are Monads!
+                I.putStrLn $ T.pack $ plgLst x >>= ((\y ->(getMatchString $ matchRegexAll (toMatch  y) (T.unpack $ inp x))))
+                                                            
                 -- Lifts it into a monad 
-                return $ name x
+                -- This is not actual return. This just elevates a type to a monad
+                return $ inp x
  
+    myFunc :: Maybe (String, String, String, [String]) -> (String, String, String, [String])
+    myFunc x = fromMaybe ("", "", "", ["B"]) x
+
+    get2nd :: (String, String, String, [String]) -> String
+    get2nd (_, x, _, _) = x
+
+    getMatchString = get2nd . myFunc
+
+    get2nd2 :: (String, String, String, [String]) -> Bool
+    get2nd2 (_, "", _, _) = False
+    get2nd2 (_, _, _, _) = True
+
+    isMatched = get2nd2 . myFunc

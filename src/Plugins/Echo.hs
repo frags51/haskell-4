@@ -7,7 +7,7 @@ where
     import Data.Text    (Text)
 
     tm :: Regex
-    tm = mkRegex "[cC]+at"
+    tm = mkRegex "[cC]at"
 
     f :: Text -> Text
     f x = x
