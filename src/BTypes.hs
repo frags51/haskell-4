@@ -2,13 +2,14 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 
 module BTypes
-  ( PluginD
+  ( PluginD (..) -- DData Constructor for PluginD
   ) where
 
 
-import           Data.Aeson
+import           Data.Aeson -- For JSON, if required? Aeson was the father of JSON ^-^
 import           Data.Text                    (Text)
 import           Data.ByteString              (ByteString)
+import           Text.Regex
 
 type BotId = Text
 type UserId = Text
@@ -36,6 +37,7 @@ data BotInfo = BotInfo { botInfoToken :: BotToken
 , botInfoIcon  :: Text
 }
 
-data PluginD = PluginD { name :: Text
+data PluginD = PluginD { name :: [Char]
+ , toMatch :: Regex
  ,action :: Text -> Text
 }
