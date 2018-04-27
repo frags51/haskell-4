@@ -23,8 +23,11 @@ where
     instance IsAdapter Shell where
         hear x = do -- Should do IO and return T.Text
                 -- Lists are Monads!
-                I.putStrLn $ T.pack $ plgLst x >>= ((\y ->(getMatchString $ matchRegexAll (toMatch  y) (T.unpack $ inp x))))
-                                                            
+                --I.putStrLn $ T.pack $ plgLst x >>= ((\y ->(getMatchString $ matchRegexAll (toMatch  y) (T.unpack $ inp x))))
+                
+                let j = T.pack $ plgLst x >>= ((\y ->(getMatchString $ matchRegexAll (toMatch  y) (T.unpack $ inp x))))
+                
+                I.putStrLn $ T.pack . boolToString $ not (T.null j)
                 -- Lifts it into a monad 
                 -- This is not actual return. This just elevates a type to a monad
                 return $ inp x
@@ -37,8 +40,18 @@ where
 
     getMatchString = get2nd . myFunc
 
+    {-
     get2nd2 :: (String, String, String, [String]) -> Bool
     get2nd2 (_, "", _, _) = False
     get2nd2 (_, _, _, _) = True
+    -}
 
-    isMatched = get2nd2 . myFunc
+    isEmptyStr :: String -> Bool
+    isEmptyStr x = case x of
+                    "" -> False
+                    otherwise -> True
+
+    boolToString :: Bool -> String
+    boolToString True = "TRUE"
+    boolToString False = "FALSE"
+     
