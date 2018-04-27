@@ -9,3 +9,5 @@ cabal.sandbox.config
 *.save*
 dist/
 haskell4.cabal
+ChangeLog.md
+Haskell-learn.cabal
