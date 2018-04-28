@@ -1,16 +1,18 @@
 {
   "dist": "trusty",
   "sudo": "require",
+  "language" : "haskell"
   "compiler": "ghc",
   "before_install": [
     
   ],
+  "install": [
+    ""
+  ]
   "script": [
-    "sudo apt-get install haskell-platform"
     "ghc --version",
     "./make.sh"
   ],
   "group": "stable",
-  "env": "MATRIX_EVAL=\"CC=ghc\"",
   "os": "linux"
 }
