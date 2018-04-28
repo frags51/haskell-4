@@ -13,10 +13,11 @@ where
     tm = mkRegex "^Bender Note"
     f :: T.Text -> User -> User -> IO T.Text
     f x me you = do
-        let res = splitAt 10 f
+        let res = splitAt 12 (T.unpack x)
 
-        appendFile "myNote.txt" f
+        appendFile "myNote.txt" ((snd res)++"\n") 
         hFlush stdout
         return x -- Lift x to IO Text, and return it!
+    
     pExport :: PluginD
     pExport = PluginD "Note" tm f
