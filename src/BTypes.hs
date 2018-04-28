@@ -41,7 +41,7 @@ data BotInfo = BotInfo { botInfoToken :: BotToken
 
 data PluginD = PluginD { name :: [Char]
  , toMatch :: Regex
- ,action :: Text -> IO Text
+ ,action :: Text -> (User) -> (User) -> IO Text
 }
 
 emptyUser = User (pack "") (pack "")
