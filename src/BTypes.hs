@@ -3,11 +3,13 @@
 
 module BTypes
   ( PluginD (..) -- DData Constructor for PluginD
+    , User(..)
+    , emptyUser
   ) where
 
 
 import           Data.Aeson -- For JSON, if required? Aeson was the father of JSON ^-^
-import           Data.Text                    (Text)
+import           Data.Text                    (Text, pack)
 import           Data.ByteString              (ByteString)
 import           Text.Regex
 
@@ -41,3 +43,5 @@ data PluginD = PluginD { name :: [Char]
  , toMatch :: Regex
  ,action :: Text -> IO Text
 }
+
+emptyUser = User (pack "") (pack "")
