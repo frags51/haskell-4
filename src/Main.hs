@@ -24,6 +24,7 @@ import qualified Plugins.Echo as PEcho
 import qualified Plugins.Arithmetic as PD
 import qualified Plugins.Commit as PC
 import qualified Plugins.Oddity as PO
+import qualified Plugins.Shout as PS
 
 -- | Store a list of users. May add another getULst fxn for other adapters.
 uLst = [User (T.pack "0") (T.pack "Room"),User (T.pack "1") (T.pack "Sup"), 
@@ -55,6 +56,7 @@ loop = do
     hear $ S.Shell ff [PEcho.pExport
         , PD.pExport
         , PC.pExport
-        , PO.pExport] uLst (uLst !! me) (uLst !! you)
+        , PO.pExport
+        , PS.pExport] uLst (uLst !! me) (uLst !! you)
     return ()
     loop
