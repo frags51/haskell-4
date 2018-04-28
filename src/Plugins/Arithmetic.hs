@@ -33,7 +33,7 @@ where
         return x -- Lift x to IO Text, and return it!
 
     pExport :: PluginD
-    pExport = PluginD "Echo" tm f
+    pExport = PluginD "Arithmetic" tm f
 
     -- |Returns the matched numbers as a List
     getNumsAsList :: T.Text -> Regex -> [String]
