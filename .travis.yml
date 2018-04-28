@@ -1,16 +1,25 @@
-{
-  "dist": "trusty",
-  "sudo": "require",
-  "compiler": "ghc",
-  "before_install": [
+dist: trusty
+sudo: require
+language: haskell
+compiler:
+  - ghc
+branches:
+  only:
+  - master
+  - L1
+
+
+before_install:
+    #- sudo apt-get -qq update
+    - ghc --version
+
+install:
+    - ./make.sh
+
+script:
+    #- sudo ln -s /usr/bin/gcc-6 /usr/local/bin/gcc
+    #- sudo ln -s /usr/bin/g++-6 /usr/local/bin/g++
+    - echo "Done!"
     
-  ],
-  "script": [
-    "sudo apt-get install haskell-platform"
-    "ghc --version",
-    "./make.sh"
-  ],
-  "group": "stable",
-  "env": "MATRIX_EVAL=\"CC=ghc\"",
-  "os": "linux"
-}
+notifications:
+  email: false
