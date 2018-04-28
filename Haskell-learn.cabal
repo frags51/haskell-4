@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 -- The name of the package.
-name:                Haskell-learn
+name:                haskell4
 
 -- The package version.  See the Haskell package versioning policy (PVP) 
 -- for standards guiding when and how versions should be incremented.
@@ -46,12 +46,12 @@ extra-source-files:  ChangeLog.md, README.md
 cabal-version:       >=1.10
 
 
-executable Haskell-learn
+executable haskell4
   -- .hs or .lhs file containing the Main module.
   main-is:             Main.hs
   
   -- Modules included in this executable, other than Main.
-  -- other-modules:       
+  other-modules: BAdapter, BAdapter.Shell, Plugins.Echo, Plugins.Arithmetic, BTypes       
   
   -- LANGUAGE extensions used by modules in this package.
   other-extensions:    MultiParamTypeClasses, FlexibleContexts, DeriveAnyClass, AllowAmbiguousTypes, FlexibleInstances, GeneralizedNewtypeDeriving, TypeFamilies, TypeSynonymInstances, StandaloneDeriving, UndecidableInstances

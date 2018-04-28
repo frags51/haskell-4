@@ -20,7 +20,7 @@ module BTypes
   ) where
 
 
-import           Data.Aeson -- For JSON, if required? Aeson was the father of JSON ^-^
+-- import           Data.Aeson -- For JSON, if required? Aeson was the father of JSON ^-^
 import           Data.Text                    (Text, pack)
 import           Data.ByteString              (ByteString)
 import           Text.Regex
