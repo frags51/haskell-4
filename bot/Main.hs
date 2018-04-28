@@ -1,22 +1,22 @@
-i{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE FlexibleContexts #-}
 {-# LANGUAGE ExtendedDefaultRules #-}
 {-# LANGUAGE CPP #-}
-
-
+{-# LANGUAGE RankNTypes #-}
+{-# LANGUAGE PatternGuards #-}
+{-# OPTIONS_GHC -fno-warn-deprecations #-}
 module Main where
 
+import Control.Exception.Base
+import Control.Lens hiding ((.=))
+import Control.Monad
+import Data.Aeson (encode)
+import Data.Bool
 import Data.ByteString
 import Data.Char(toUpper)
 import Data.Maybe
 import Data.Monoid ((<>))
-import Reddit
-import Reddit.Types.Post
-import Reddit.Types.SearchOptions (Order (..))
-import Servant.Client (ClientEnv(ClientEnv), runClientM)
-import Servant.Common.Req
-import System.Environment (getEnv, setEnv)
 import qualified Data.Text as T
 import GHC.Types (IO (..))
 import Network.HTTP.Base
@@ -28,13 +28,13 @@ import Network.TLS
 import Network.Wai.Handler.Warp (run)
 import Network.Wreq
 import Prelude
+import Reddit
+import Reddit.Types.Post
+import Reddit.Types.SearchOptions (Order (..))
+import Servant.Client (ClientEnv(ClientEnv), runClientM)
+import Servant.Common.Req
+import System.Environment (getEnv, setEnv)
 
-main :: IO ()
-main =  do
-	Prelude.putStrLn ("Connected")
-    run port (slashSimple redditify)
-	where
-		port = 3000
 readSlackFile :: FilePath -> IO T.Text
 readSlackFile filename =
   T.filter (/= '\n') . T.pack <$> Prelude.readFile filename
@@ -91,3 +91,12 @@ redditify(Just command) = do
       return ""
   where
     debug = False
+
+main :: IO ()
+main =  do
+	Prelude.putStrLn ("+ Listening on port " <> show port)
+	run port (slashSimple redditify)
+	where 
+		port = 3000
+
+                    

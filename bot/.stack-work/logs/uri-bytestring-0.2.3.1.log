@@ -1,0 +1,29 @@
+Configuring uri-bytestring-0.2.3.1...
+Warning: This package indirectly depends on multiple versions of the same
+package. This is highly likely to cause a compile failure.
+package deepseq-1.4.2.0 requires array-0.5.1.1
+package text-1.2.2.1 requires array-0.5.1.1
+package integer-logarithms-1.0.1 requires array-0.5.1.1
+package deepseq-1.4.2.0 requires array-0.5.1.1
+package containers-0.5.7.1 requires array-0.5.1.1
+package binary-0.8.3.0 requires array-0.5.1.1
+package attoparsec-0.13.1.0 requires array-0.5.1.1
+package pretty-1.1.3.3 requires deepseq-1.4.2.0
+package vector-0.11.0.0 requires deepseq-1.4.2.0
+package text-1.2.2.1 requires deepseq-1.4.2.0
+package scientific-0.3.4.12 requires deepseq-1.4.2.0
+package hashable-1.2.6.0 requires deepseq-1.4.2.0
+package containers-0.5.7.1 requires deepseq-1.4.2.0
+package bytestring-0.10.8.1 requires deepseq-1.4.2.0
+package blaze-builder-0.4.0.2 requires deepseq-1.4.2.0
+package attoparsec-0.13.1.0 requires deepseq-1.4.2.0
+Building uri-bytestring-0.2.3.1...
+Preprocessing library uri-bytestring-0.2.3.1...
+[1 of 5] Compiling URI.ByteString.Types ( src/URI/ByteString/Types.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/URI/ByteString/Types.o )
+[2 of 5] Compiling URI.ByteString.Lens ( src/URI/ByteString/Lens.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/URI/ByteString/Lens.o )
+[3 of 5] Compiling URI.ByteString.Internal ( src/URI/ByteString/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/URI/ByteString/Internal.o )
+[4 of 5] Compiling URI.ByteString   ( src/URI/ByteString.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/URI/ByteString.o )
+[5 of 5] Compiling URI.ByteString.QQ ( src/URI/ByteString/QQ.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/URI/ByteString/QQ.o )
+Installing library in
+/home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-8.12/8.0.2/lib/x86_64-linux-ghc-8.0.2/uri-bytestring-0.2.3.1-Fb4z5raauM24Ft6KagPOu3
+Registering uri-bytestring-0.2.3.1...

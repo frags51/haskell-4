@@ -1,0 +1,82 @@
+Configuring authenticate-oauth-1.6...
+Warning: This package indirectly depends on multiple versions of the same
+package. This is highly likely to cause a compile failure.
+package deepseq-1.4.2.0 requires array-0.5.1.1
+package text-1.2.2.1 requires array-0.5.1.1
+package streaming-commons-0.1.17 requires array-0.5.1.1
+package stm-2.4.4.1 requires array-0.5.1.1
+package http-types-0.9.1 requires array-0.5.1.1
+package http-client-0.5.7.0 requires array-0.5.1.1
+package deepseq-1.4.2.0 requires array-0.5.1.1
+package containers-0.5.7.1 requires array-0.5.1.1
+package cereal-0.5.4.0 requires array-0.5.1.1
+package binary-0.8.3.0 requires array-0.5.1.1
+package SHA-1.6.4.2 requires array-0.5.1.1
+package pretty-1.1.3.3 requires deepseq-1.4.2.0
+package time-1.6.0.1 requires deepseq-1.4.2.0
+package text-1.2.2.1 requires deepseq-1.4.2.0
+package tagged-0.8.5 requires deepseq-1.4.2.0
+package process-1.4.3.0 requires deepseq-1.4.2.0
+package network-uri-2.6.1.0 requires deepseq-1.4.2.0
+package memory-0.14.3 requires deepseq-1.4.2.0
+package http-client-0.5.7.0 requires deepseq-1.4.2.0
+package hourglass-0.2.10 requires deepseq-1.4.2.0
+package hashable-1.2.6.0 requires deepseq-1.4.2.0
+package dlist-0.8.0.2 requires deepseq-1.4.2.0
+package cookie-0.4.2.1 requires deepseq-1.4.2.0
+package containers-0.5.7.1 requires deepseq-1.4.2.0
+package case-insensitive-1.2.0.9 requires deepseq-1.4.2.0
+package bytestring-0.10.8.1 requires deepseq-1.4.2.0
+package blaze-builder-0.4.0.2 requires deepseq-1.4.2.0
+Building authenticate-oauth-1.6...
+Preprocessing library authenticate-oauth-1.6...
+[1 of 2] Compiling Web.Authenticate.OAuth ( Web/Authenticate/OAuth.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Web/Authenticate/OAuth.o )
+
+Web/Authenticate/OAuth.hs:399:24: warning: [-Wdeprecations]
+    In the use of ‘parseUrl’
+    (imported from Network.HTTP.Client, but defined in http-client-0.5.7.0:Network.HTTP.Client.Request):
+    Deprecated: "Please use parseUrlThrow, parseRequest, or parseRequest_ instead"
+
+Web/Authenticate/OAuth.hs:486:34: warning: [-Wdeprecations]
+    In the use of ‘parseUrl’
+    (imported from Network.HTTP.Client, but defined in http-client-0.5.7.0:Network.HTTP.Client.Request):
+    Deprecated: "Please use parseUrlThrow, parseRequest, or parseRequest_ instead"
+[2 of 2] Compiling Web.Authenticate.OAuth.IO ( Web/Authenticate/OAuth/IO.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Web/Authenticate/OAuth/IO.o )
+
+Web/Authenticate/OAuth/IO.hs:35:35: warning: [-Wdeprecations]
+    In the use of ‘withManager’
+    (imported from Network.HTTP.Client, but defined in http-client-0.5.7.0:Network.HTTP.Client.Manager):
+    Deprecated: "Use newManager instead"
+
+Web/Authenticate/OAuth/IO.hs:43:12: warning: [-Wdeprecations]
+    In the use of ‘withManager’
+    (imported from Network.HTTP.Client, but defined in http-client-0.5.7.0:Network.HTTP.Client.Manager):
+    Deprecated: "Use newManager instead"
+
+Web/Authenticate/OAuth/IO.hs:51:45: warning: [-Wdeprecations]
+    In the use of ‘withManager’
+    (imported from Network.HTTP.Client, but defined in http-client-0.5.7.0:Network.HTTP.Client.Manager):
+    Deprecated: "Use newManager instead"
+
+Web/Authenticate/OAuth/IO.hs:57:44: warning: [-Wdeprecations]
+    In the use of ‘withManager’
+    (imported from Network.HTTP.Client, but defined in http-client-0.5.7.0:Network.HTTP.Client.Manager):
+    Deprecated: "Use newManager instead"
+
+Web/Authenticate/OAuth/IO.hs:66:33: warning: [-Wdeprecations]
+    In the use of ‘withManager’
+    (imported from Network.HTTP.Client, but defined in http-client-0.5.7.0:Network.HTTP.Client.Manager):
+    Deprecated: "Use newManager instead"
+
+Web/Authenticate/OAuth/IO.hs:75:40: warning: [-Wdeprecations]
+    In the use of ‘withManager’
+    (imported from Network.HTTP.Client, but defined in http-client-0.5.7.0:Network.HTTP.Client.Manager):
+    Deprecated: "Use newManager instead"
+
+Web/Authenticate/OAuth/IO.hs:82:39: warning: [-Wdeprecations]
+    In the use of ‘withManager’
+    (imported from Network.HTTP.Client, but defined in http-client-0.5.7.0:Network.HTTP.Client.Manager):
+    Deprecated: "Use newManager instead"
+Installing library in
+/home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-8.12/8.0.2/lib/x86_64-linux-ghc-8.0.2/authenticate-oauth-1.6-GwlU0ZWlF4Y3MG2DvjCgZC
+Registering authenticate-oauth-1.6...
