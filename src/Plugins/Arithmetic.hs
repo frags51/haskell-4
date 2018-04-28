@@ -39,7 +39,7 @@ where
     getNumsAsList :: T.Text -> Regex -> [String]
     getNumsAsList x tm=  fromMaybe ([]) $ matchRegex tm $ T.unpack x
 
-    -- |Converts the list of String to a tuple
+    -- |Converts the list of String to a tuple. Note, head is the first capture -> add, mult div etc
     getNumsAsTuple :: [String] -> (Int, Int)
     getNumsAsTuple (x:xs) = (read (head xs) :: Int, read (head (tail xs)) :: Int)
 
