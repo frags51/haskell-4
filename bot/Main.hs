@@ -1,15 +1,5 @@
-{-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE NoImplicitPrelude #-}
-{-# LANGUAGE FlexibleContexts #-}
-{-# LANGUAGE ExtendedDefaultRules #-}
-{-# LANGUAGE CPP #-}
-{-# LANGUAGE RankNTypes #-}
-{-# LANGUAGE PatternGuards #-}
-{-# OPTIONS_GHC -fno-warn-deprecations #-}
 module Main where
 
-import Control.Exception.Base
-import Control.Lens hiding ((.=))
 import Control.Monad
 import Data.Aeson (encode)
 import Data.Bool
