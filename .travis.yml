@@ -1,0 +1,16 @@
+{
+  "dist": "trusty",
+  "sudo": "require",
+  "language": "haskell",
+  "compiler": "ghc",
+  "before_install": [
+    
+  ],
+  "script": [
+    "ghc --version",
+    "./make.sh"
+  ],
+  "group": "stable",
+  "env": "MATRIX_EVAL=\"CC=ghc\"",
+  "os": "linux"
+}
