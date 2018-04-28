@@ -21,7 +21,7 @@ import BTypes
 import BAdapter
 import qualified BAdapter.Shell as S
 import qualified Plugins.Echo as PEcho
-import qualified Plugins.Divide as PD
+import qualified Plugins.Arithmetic as PD
 
 -- | Store a list of users. May add another getULst fxn for other adapters.
 uLst = [User (T.pack "0") (T.pack "Room"),User (T.pack "1") (T.pack "Sup"), 

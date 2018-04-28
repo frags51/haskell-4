@@ -1,5 +1,5 @@
 {-|
-Module      : Plugins.Divde
+Module      : Plugins.Arithmetic
 Description : A simple echo plugin
 Copyright   : (c) Supreet Singh, 2018
 License     : WTFPL
@@ -7,10 +7,10 @@ Maintainer  : supreet51.cs@gmail.com
 Stability   : experimental
 Portability : POSIX/Windows/MacOS
 
-Matches Bender divide/Divide/div/Div Num <text> Num2 and returns Num / Num2
+Matches Bender add/div/mult/sub Num <text> Num2 and returns Num / Num2
 -}
 
-module Plugins.Divide (
+module Plugins.Arithmetic (
     pExport
     )
 where
@@ -22,11 +22,11 @@ where
     import Data.Maybe
 
     tm :: Regex
-    tm = mkRegex "^Bender (divide|Divide|Div|div) ([0-9]+) [A-z]+ ([0-9]+)"
+    tm = mkRegex "^Bender (add|div|sub|mult) ([0-9]+) [A-z]* ([0-9]+)"
 
     f :: T.Text -> User -> User -> IO T.Text
     f x me you = do
-        let res = show . divFromTuple . getNumsAsTuple $ (getNumsAsList x tm)
+        let res = show . (getFxn (getNumsAsList x tm)) . getNumsAsTuple $ (getNumsAsList x tm)
 
         putStrLn("BENDER: The answer is: "++res)
         hFlush stdout
@@ -46,3 +46,23 @@ where
     -- |Divides the numbers
     divFromTuple :: (Int, Int) -> Double
     divFromTuple a = (fromIntegral(fst a)) / fromIntegral(( snd a))
+
+    -- |Multiplies the numbers
+    multFromTuple :: (Int, Int) -> Double
+    multFromTuple a = fromIntegral((fst a) * (snd a))
+
+    -- |Adds the numbers
+    addFromTuple :: (Int, Int) -> Double
+    addFromTuple a = fromIntegral((fst a) + (snd a))
+
+    -- |Subracts the numbers
+    subFromTuple :: (Int, Int) -> Double
+    subFromTuple a = fromIntegral((fst a) - (snd a))
+
+    -- |Returns what func to use
+    getFxn ::  [String] -> ((Int, Int) -> Double)
+    getFxn (g:gs) = case g of
+                    "div" -> divFromTuple
+                    "mult" -> multFromTuple
+                    "add" -> addFromTuple
+                    "sub" -> subFromTuple
