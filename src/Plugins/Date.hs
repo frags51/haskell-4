@@ -1,13 +1,13 @@
 {-|
-Module      : Plugins.Echo
+Module      : Plugins.Date
 Description : A simple echo plugin
-Copyright   : (c) Supreet Singh, 2018
+Copyright   : (c) Aishwarya, 2018
 License     : WTFPL
 Maintainer  : supreet51.cs@gmail.com
 Stability   : experimental
 Portability : POSIX/Windows/MacOS
 
-Simply echo if you hear a cat or Cat!
+Echo the date on Bender date
 -}
 
 module Plugins.Date (
@@ -15,7 +15,7 @@ module Plugins.Date (
     )
 where
     import BTypes (PluginD(..), User(..), emptyUser) -- Type constructor
-    import Text.Regex
+    import Text.Regexmakat
     import qualified Data.Text    as T
     import qualified Data.Text.IO as I
     import System.IO
