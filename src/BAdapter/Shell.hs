@@ -31,12 +31,12 @@ where
                 putStrLn " _(\\    |@@| "
                 putStrLn "(__/\\__ \\--/ __"
                 putStrLn "   \\___|----|  |   __"
-                putStrLn "       \\ B  /\\ )_ / _\\ "
+                putStrLn "       \\ BR /\\ )_ / _\\ "
                 putStrLn "       /\\__/\\ \\__O (__ "
                 putStrLn "      (--/\\--)    \\__/ "
                 putStrLn "      _)(  )(_ "
                 putStrLn "     `---''---` "
-                putStrLn "BENDER AT YOUR SERVICE <3"
+                putStrLn "BENDER RODRIGUEZ AT YOUR SERVICE <3"
                 I.putStrLn((T.pack "Welcome to Shell!"))
                 I.putStrLn((T.pack "Enter messages like this: UserIDYour <Enter> UserIDTo(0 for all (room)) <Enter> <Message>"))
                 I.putStrLn((T.pack "<ctrl>+c to quit!"))
