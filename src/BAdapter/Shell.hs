@@ -2,7 +2,7 @@ module BAdapter.Shell (
     Shell (..)
     )
 where
-    import Control.Monad
+    import Control.Monad -- for mapM_
     import BAdapter
     import qualified Data.Text as T
     import qualified Data.Text.IO as I
