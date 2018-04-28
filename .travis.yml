@@ -1,7 +1,7 @@
 {
   "dist": "trusty",
   "sudo": "require",
-  "language": "haskell",
+  "compiler": "ghc",
   "before_install": [
     
   ],
