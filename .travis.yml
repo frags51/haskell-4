@@ -1,3 +1,6 @@
+branches:
+  only:
+    - L1
 {
   "dist": "trusty",
   "sudo": "require",
