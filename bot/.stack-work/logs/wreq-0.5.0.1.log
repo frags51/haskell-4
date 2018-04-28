@@ -1,6 +1,6 @@
-[1 of 2] Compiling Main             ( /tmp/stack14109/wreq-0.5.0.1/Setup.hs, /tmp/stack14109/wreq-0.5.0.1/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/Main.o )
+[1 of 2] Compiling Main             ( /tmp/stack7970/wreq-0.5.0.1/Setup.hs, /tmp/stack7970/wreq-0.5.0.1/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/Main.o )
 
-/tmp/stack14109/wreq-0.5.0.1/Setup.hs:10:4: error:
+/tmp/stack7970/wreq-0.5.0.1/Setup.hs:10:4: error:
     Module
     ‘Distribution.Package’
     does not export
