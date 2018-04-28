@@ -21,7 +21,7 @@ where
     import System.IO
 
     tm :: Regex
-    tm = mkRegex "^[B/b]ender [D/d]isplay [N/n]otes"
+    tm = mkRegex "^[Bb]ender [Dd]isplay [Nn]otes"
     f :: T.Text -> User -> User -> IO T.Text
     f x me you = do
         contents <- readFile "myNote.txt" 
