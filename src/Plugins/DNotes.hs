@@ -1,5 +1,5 @@
 {-|
-Module      : Plugins.Note
+Module      : Plugins.DNotes
 Description : A simple note plugin
 Copyright   : (c) Aishwarya G M, 2018
 License     : WTFPL
@@ -7,9 +7,9 @@ Maintainer  : supreet51.cs@gmail.com
 Stability   : experimental
 Portability : POSIX/Windows/MacOS
 
-Simply write note when sentence starts with bender note
+Simply display notes when user enters bender display notes
 -}
-module Plugins.Note (
+module Plugins.DNotes (
     pExport
     )
 where
@@ -21,14 +21,13 @@ where
     import System.IO
 
     tm :: Regex
-    tm = mkRegex "^[B/b]ender [N/n]ote"
+    tm = mkRegex "^[B/b]ender [D/d]isplay [N/n]otes"
     f :: T.Text -> User -> User -> IO T.Text
     f x me you = do
-        let res = splitAt 12 (T.unpack x)
-
-        appendFile "myNote.txt" ((snd res)++"\n") 
+        contents <- readFile "myNote.txt" 
+        putStrLn contents 
         hFlush stdout
         return x -- Lift x to IO Text, and return it!
     
     pExport :: PluginD
-    pExport = PluginD "Note" tm f
+    pExport = PluginD "DNotes" tm f

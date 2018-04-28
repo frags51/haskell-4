@@ -15,7 +15,7 @@ module Plugins.Date (
     )
 where
     import BTypes (PluginD(..), User(..), emptyUser) -- Type constructor
-    import Text.Regexmakat
+    import Text.Regex
     import qualified Data.Text    as T
     import qualified Data.Text.IO as I
     import System.IO
