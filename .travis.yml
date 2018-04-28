@@ -1,18 +1,25 @@
-{
-  "dist": "trusty",
-  "sudo": "require",
-  "language" : "haskell"
-  "compiler": "ghc",
-  "before_install": [
+dist: trusty
+sudo: require
+language: haskell
+compiler:
+  - ghc
+branches:
+  only:
+  - master
+  - L1
+
+
+before_install:
+    #- sudo apt-get -qq update
+    - ghc --version
+
+install:
+    - ./make.sh
+
+script:
+    #- sudo ln -s /usr/bin/gcc-6 /usr/local/bin/gcc
+    #- sudo ln -s /usr/bin/g++-6 /usr/local/bin/g++
+    - echo "Done!"
     
-  ],
-  "install": [
-    ""
-  ]
-  "script": [
-    "ghc --version",
-    "./make.sh"
-  ],
-  "group": "stable",
-  "os": "linux"
-}
+notifications:
+  email: false
