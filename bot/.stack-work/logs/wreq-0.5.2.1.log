@@ -1,7 +1,51 @@
-[1 of 2] Compiling Main             ( /tmp/stack17796/wreq-0.5.2.1/Setup.hs, /tmp/stack17796/wreq-0.5.2.1/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/Main.o )
-[2 of 2] Compiling StackSetupShim   ( /home/supreet/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack17796/wreq-0.5.2.1/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/StackSetupShim.o )
-Linking /tmp/stack17796/wreq-0.5.2.1/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/setup ...
+[1 of 2] Compiling Main             ( /tmp/stack8902/wreq-0.5.2.1/Setup.hs, /tmp/stack8902/wreq-0.5.2.1/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /home/supreet/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack8902/wreq-0.5.2.1/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/StackSetupShim.o )
+Linking /tmp/stack8902/wreq-0.5.2.1/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/setup ...
 Configuring wreq-0.5.2.1...
+Warning:
+    This package indirectly depends on multiple versions of the same package. This is very likely to cause a compile failure.
+      package deepseq (deepseq-1.4.3.0) requires array-0.5.2.0
+      package text (text-1.2.3.0-5vzuaiASPHn9l43SOJg4ZS) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package streaming-commons (streaming-commons-0.1.19-9oYzlJhwQCIBJtWcATTtSY) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package stm (stm-2.4.5.0-3kNDtbJhQ2Y1eUaHK3uMT5) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package parallel (parallel-3.2.1.1-DDHWplGXxSRCitwlsROvtr) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package lens (lens-4.16.1-85UNNcGYTF34rJG59J1Eoe) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package kan-extensions (kan-extensions-5.1-9Ek92QdQd0z5w2ktpP5L24) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package integer-logarithms (integer-logarithms-1.0.2.1-KbTnldbOfLkDrVuX5pjYcw) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package http-types (http-types-0.12.1-GFJ8Js91pih85cYhpVakSj) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package http-client (http-client-0.5.7.0-67xVTUDMBsj6zeW0FAfRCV) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package deepseq (deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package containers (containers-0.5.10.2-62PoZk4ge7VJoCK4TfK0ES) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package cereal (cereal-0.5.5.0-1r3S4LEGz0AGplKDS3qdmG) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package binary (binary-0.8.5.1-LSZ9plbbZraJw71MrhqjwC) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package attoparsec (attoparsec-0.13.2.2-GA6QpqGCPHdGflMH6nE7ja) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package adjunctions (adjunctions-4.4-13Wi7ZSefkp132LJ5WSVc6) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package SHA (SHA-1.6.4.4-IBWo1E6JHHUAHYjmmJQsEX) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package pretty (pretty-1.1.3.3) requires deepseq-1.4.3.0
+      package vector (vector-0.12.0.1-Hsy8E07CgDsFPTCSNvYdOP) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package uuid-types (uuid-types-1.0.3-50r95UrWnRXEu8Kg3LM0Wd) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package unordered-containers (unordered-containers-0.2.9.0-LCIcpAUIFUqI7WS4dV2wLP) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package time (time-1.8.0.2-5F8tpJ7Eb3k2SvoODn5IsI) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package text (text-1.2.3.0-5vzuaiASPHn9l43SOJg4ZS) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package tagged (tagged-0.8.5-7vgzKsb1NyFJnT8w3eSNeS) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package scientific (scientific-0.3.5.3-EVW9Dv4gvzzLx1Cxt6zTU9) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package psqueues (psqueues-0.2.6.0-9mj0pduqk22CeHBt2h5cYM) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package process (process-1.6.1.0-3gsl3rgtuIq7Z00KWaWaRF) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package parallel (parallel-3.2.1.1-DDHWplGXxSRCitwlsROvtr) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package network-uri (network-uri-2.6.1.0-LUq7111iSvp7MZCfuX9nEe) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package memory (memory-0.14.16-9d2wC0yNpqVJUFB32huzdE) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package http-client (http-client-0.5.7.0-67xVTUDMBsj6zeW0FAfRCV) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package hourglass (hourglass-0.2.11-99jpZ9VuRb6J2VlvUPpHLf) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package hashable (hashable-1.2.7.0-7pKtmLQeC3p1yIBHpoaqjk) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package dlist (dlist-0.8.0.4-JfPM5plhkCEKZqow3HCSUC) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package cryptonite (cryptonite-0.25-AGVmAgKRlQZGx3RZB9sIDV) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package cookie (cookie-0.4.4-1prYSm0Sg3a5mA6XPMQZPW) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package containers (containers-0.5.10.2-62PoZk4ge7VJoCK4TfK0ES) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package case-insensitive (case-insensitive-1.2.0.11-ElihS1V0bzE3kGdoexkxOR) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package bytestring (bytestring-0.10.8.2-5hPdnGQ2HNS3iq5yfoKxtv) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package blaze-builder (blaze-builder-0.4.1.0-Hz8YjHgtAA5H6O6SkMdmhT) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package attoparsec (attoparsec-0.13.2.2-GA6QpqGCPHdGflMH6nE7ja) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package aeson (aeson-1.2.4.0-ApTJilrjh2UIZHizpUCuDp) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
 Preprocessing library for wreq-0.5.2.1..
 Building library for wreq-0.5.2.1..
 [ 1 of 15] Compiling Network.Wreq.Cache.Store ( Network/Wreq/Cache/Store.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/Wreq/Cache/Store.o )
@@ -19,5 +63,5 @@ Building library for wreq-0.5.2.1..
 [13 of 15] Compiling Network.Wreq.Internal ( Network/Wreq/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/Wreq/Internal.o )
 [14 of 15] Compiling Network.Wreq     ( Network/Wreq.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/Wreq.o )
 [15 of 15] Compiling Network.Wreq.Session ( Network/Wreq/Session.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/Wreq/Session.o )
-Installing library in /home/supreet/.stack/snapshots/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/wreq-0.5.2.1-8a38JAwE7PYBLflozBpnae
+Installing library in /home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/wreq-0.5.2.1-5j3PXumdURhKAEeOOo2Klc
 Registering library for wreq-0.5.2.1..
