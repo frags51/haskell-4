@@ -22,6 +22,8 @@ import BAdapter
 import qualified BAdapter.Shell as S
 import qualified Plugins.Echo as PEcho
 import qualified Plugins.Arithmetic as PD
+import qualified Plugins.Note as PN
+import qualified Plugins.Date as PDate
 
 -- | Store a list of users. May add another getULst fxn for other adapters.
 uLst = [User (T.pack "0") (T.pack "Room"),User (T.pack "1") (T.pack "Sup"), 
@@ -51,6 +53,7 @@ loop = do
     ff <- I.getLine
     --I.putStrLn . hear $ S.Shell ff -- Function Composition
     hear $ S.Shell ff [PEcho.pExport
-        , PD.pExport] uLst (uLst !! me) (uLst !! you)
+        , PD.pExport, PN.pExport,
+        PDate.pExport] uLst (uLst !! me) (uLst !! you)
     return ()
     loop
