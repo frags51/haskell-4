@@ -10,7 +10,9 @@ import BAdapter
 import qualified BAdapter.Shell as S
 import qualified Plugins.Echo as PEcho
 
-uLst = [User (T.pack "0") (T.pack "Room"),User (T.pack "1") (T.pack "Sup"), User (T.pack "2") (T.pack "R2D2"), User (T.pack "3") (T.pack "Marvin")]
+uLst = [User (T.pack "0") (T.pack "Room"),User (T.pack "1") (T.pack "Sup"), 
+        User (T.pack "2") (T.pack "R2D2"), User (T.pack "3") (T.pack "Marvin"),
+        User (T.pack "4") (T.pack "GroundControl"), User (T.pack "5") (T.pack "MajorTom")]
 
 main :: IO ()
 main = do 
