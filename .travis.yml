@@ -6,6 +6,7 @@
     
   ],
   "script": [
+    "sudo apt-get install haskell-platform"
     "ghc --version",
     "./make.sh"
   ],
