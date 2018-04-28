@@ -22,7 +22,7 @@ where
     import Data.Maybe
 
     tm :: Regex
-    tm = mkRegex "^Bender (add|div|sub|mult) ([0-9]+) [A-z]* ([0-9]+)"
+    tm = mkRegex "^[Bb]ender (add|div|sub|mult) ([0-9]+)[A-z ]*([0-9]+)"
 
     f :: T.Text -> User -> User -> IO T.Text
     f x me you = do
