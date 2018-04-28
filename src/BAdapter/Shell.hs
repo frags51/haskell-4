@@ -1,3 +1,15 @@
+{-|
+Module      : BAdapter.Shell
+Description : Contains the Description of the Shell Adapter
+Copyright   : (c) Supreet Singh, 2018
+License     : WTFPL
+Maintainer  : supreet51.cs@gmail.com
+Stability   : experimental
+Portability : POSIX/Windows/MacOS
+
+Exports the Shell constructor. Mostly used for testing purposes.
+-}
+
 module BAdapter.Shell (
     Shell (..)
     )
@@ -14,14 +26,13 @@ where
     import BTypes (PluginD(..), User(..), emptyUser)
 
     {-| This is the constructor for data Shell.
-    | Takes in input string and a list of plugins
-
+      | Takes in input string and a list of plugins
     -}
-    data Shell = Shell {inp :: T.Text
-                        , plgLst :: [PluginD]
-                        , userLst :: [User]
-                        , sender :: User
-                        , receiver :: User
+    data Shell = Shell {inp :: T.Text -- ^ The message that was input
+                        , plgLst :: [PluginD] -- ^ The List of plugins to be used
+                        , userLst :: [User] -- ^ The list of users operating this shell
+                        , sender :: User -- ^ The person that send this message
+                        , receiver :: User -- ^ The user that recieves this message
                         }
 
     instance IsAdapter Shell where
@@ -62,26 +73,30 @@ where
                 -- Lifts it into a monad 
                 -- This is not actual return. This just elevates a type to a monad
                 return $ inp x
- 
+    
+    -- | A Function composition for getting the userName as a [Char]
     myUnpakUname = T.unpack . userName
 
+    -- | Extracts the value from a Maybe Tuple generated from Regex
     myFunc :: Maybe (String, String, String, [String]) -> (String, String, String, [String])
     myFunc x = fromMaybe ("", "", "", [""]) x
 
+    -- | Gets the matched part of the regex
     get2nd :: (String, String, String, [String]) -> String
     get2nd (_, x, _, _) = x
 
+    -- | A function Composition to get the matched part of the regex from the stirng
     getMatchString = get2nd . myFunc --Composition
 
-    
+    -- | A function to check if a tuple is empty or not
     get2nd2 :: (String, String, String, [String]) -> Bool
     get2nd2 (_, "", _, _) = False
     get2nd2 (_, _, _, _) = True
     
-
+    -- | Check if the matched thing actually contains something
     isNotEmptyStr = get2nd2 . myFunc
    
-
+    -- | Converts a Bool to a String
     boolToString :: Bool -> String
     boolToString True = "TRUE"
     boolToString False = "FALSE"

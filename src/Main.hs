@@ -1,3 +1,15 @@
+{-|
+Module      : Main
+Description : The main function that is run on startup
+Copyright   : (c) Supreet Singh, 2018
+License     : WTFPL
+Maintainer  : supreet51.cs@gmail.com
+Stability   : experimental
+Portability : POSIX/Windows/MacOS
+
+Starts listening on an adapter using the selected plugins!
+-}
+
 module Main where
 
 import qualified Data.Text as T
@@ -10,6 +22,7 @@ import BAdapter
 import qualified BAdapter.Shell as S
 import qualified Plugins.Echo as PEcho
 
+-- | Store a list of users. May add another getULst fxn for other adapters.
 uLst = [User (T.pack "0") (T.pack "Room"),User (T.pack "1") (T.pack "Sup"), 
         User (T.pack "2") (T.pack "R2D2"), User (T.pack "3") (T.pack "Marvin"),
         User (T.pack "4") (T.pack "GroundControl"), User (T.pack "5") (T.pack "MajorTom")]
@@ -20,9 +33,11 @@ main = do
     _init $ S.Shell T.empty [] [] emptyUser emptyUser
     loop
 
+-- | Loop here implements the Read-Eval-Loop for the Shell Adapter.
 loop :: IO ()
 loop = do
     putStr("-------------------------\nYour User ID:> ")
+    -- Need To flush, otherwise prints in wrong order
     hFlush stdout
     ff <- getLine
     let me = read (ff):: Int

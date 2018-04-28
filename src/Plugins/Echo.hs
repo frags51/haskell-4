@@ -1,3 +1,15 @@
+{-|
+Module      : Plugins.Echo
+Description : A simple echo plugin
+Copyright   : (c) Supreet Singh, 2018
+License     : WTFPL
+Maintainer  : supreet51.cs@gmail.com
+Stability   : experimental
+Portability : POSIX/Windows/MacOS
+
+Simply echo if you hear a cat or Cat!
+-}
+
 module Plugins.Echo (
     pExport
     )
