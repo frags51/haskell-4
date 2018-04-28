@@ -1,7 +1,22 @@
-[1 of 2] Compiling Main             ( /tmp/stack25475/semigroupoids-5.2.2/Setup.lhs, /tmp/stack25475/semigroupoids-5.2.2/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/Main.o )
-[2 of 2] Compiling StackSetupShim   ( /home/supreet/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack25475/semigroupoids-5.2.2/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/StackSetupShim.o )
-Linking /tmp/stack25475/semigroupoids-5.2.2/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/setup ...
+[1 of 2] Compiling Main             ( /tmp/stack15890/semigroupoids-5.2.2/Setup.lhs, /tmp/stack15890/semigroupoids-5.2.2/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /home/supreet/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack15890/semigroupoids-5.2.2/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/StackSetupShim.o )
+Linking /tmp/stack15890/semigroupoids-5.2.2/.stack-work/dist/x86_64-linux/Cabal-2.0.1.0/setup/setup ...
 Configuring semigroupoids-5.2.2...
+Warning:
+    This package indirectly depends on multiple versions of the same package. This is very likely to cause a compile failure.
+      package deepseq (deepseq-1.4.3.0) requires array-0.5.2.0
+      package text (text-1.2.3.0-5vzuaiASPHn9l43SOJg4ZS) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package stm (stm-2.4.5.0-3kNDtbJhQ2Y1eUaHK3uMT5) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package deepseq (deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package containers (containers-0.5.10.2-62PoZk4ge7VJoCK4TfK0ES) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package binary (binary-0.8.5.1-LSZ9plbbZraJw71MrhqjwC) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package pretty (pretty-1.1.3.3) requires deepseq-1.4.3.0
+      package unordered-containers (unordered-containers-0.2.9.0-LCIcpAUIFUqI7WS4dV2wLP) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package text (text-1.2.3.0-5vzuaiASPHn9l43SOJg4ZS) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package tagged (tagged-0.8.5-7vgzKsb1NyFJnT8w3eSNeS) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package hashable (hashable-1.2.7.0-7pKtmLQeC3p1yIBHpoaqjk) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package containers (containers-0.5.10.2-62PoZk4ge7VJoCK4TfK0ES) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package bytestring (bytestring-0.10.8.2-5hPdnGQ2HNS3iq5yfoKxtv) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
 Preprocessing library for semigroupoids-5.2.2..
 Building library for semigroupoids-5.2.2..
 [ 1 of 21] Compiling Data.Functor.Extend ( src/Data/Functor/Extend.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/Functor/Extend.o )
@@ -25,5 +40,5 @@ Building library for semigroupoids-5.2.2..
 [19 of 21] Compiling Data.Semigroup.Traversable.Class ( src/Data/Semigroup/Traversable/Class.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/Semigroup/Traversable/Class.o )
 [20 of 21] Compiling Data.Semigroup.Traversable ( src/Data/Semigroup/Traversable.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/Semigroup/Traversable.o )
 [21 of 21] Compiling Data.Semigroup.Bitraversable ( src/Data/Semigroup/Bitraversable.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/Semigroup/Bitraversable.o )
-Installing library in /home/supreet/.stack/snapshots/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/semigroupoids-5.2.2-6B2DuO6DyP7B7bjZzGQ6oB
+Installing library in /home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/semigroupoids-5.2.2-2mhEHJTJkafABmrC4Yrno3
 Registering library for semigroupoids-5.2.2..

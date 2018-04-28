@@ -1,0 +1,46 @@
+Preprocessing executable 'Bot' for Bot-0.1.0.0..
+Building executable 'Bot' for Bot-0.1.0.0..
+[1 of 1] Compiling Main             ( Main.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Bot/Bot-tmp/Main.o )
+
+[;1mMain.hs:26:1: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+    Could not find module ‘Network.Linklater’
+    Use -v to see a list of the files searched for.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m26 |[0m[0m [;1m[31mimport Network.Linklater[0m[0m
+[;1m[34m   |[0m[0m[;1m[31m ^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mMain.hs:31:1: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+    Could not find module ‘Reddit’
+    Use -v to see a list of the files searched for.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m31 |[0m[0m [;1m[31mimport Reddit[0m[0m
+[;1m[34m   |[0m[0m[;1m[31m ^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mMain.hs:32:1: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+    Could not find module ‘Reddit.Types.Post’
+    Use -v to see a list of the files searched for.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m32 |[0m[0m [;1m[31mimport Reddit.Types.Post[0m[0m
+[;1m[34m   |[0m[0m[;1m[31m ^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mMain.hs:33:1: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+    Could not find module ‘Reddit.Types.SearchOptions’
+    Use -v to see a list of the files searched for.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m33 |[0m[0m [;1m[31mimport Reddit.Types.SearchOptions (Order (..))[0m[0m
+[;1m[34m   |[0m[0m[;1m[31m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mMain.hs:34:1: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+    Could not find module ‘Servant.Client’
+    Use -v to see a list of the files searched for.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m34 |[0m[0m [;1m[31mimport Servant.Client (ClientEnv(ClientEnv), runClientM)[0m[0m
+[;1m[34m   |[0m[0m[;1m[31m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1mMain.hs:35:1: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m
+    Could not find module ‘Servant.Common.Req’
+    Use -v to see a list of the files searched for.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m35 |[0m[0m [;1m[31mimport Servant.Common.Req[0m[0m
+[;1m[34m   |[0m[0m[;1m[31m ^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m

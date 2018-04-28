@@ -26,5 +26,5 @@ Building library for parsec-3.1.13.0..
 [23 of 25] Compiling Text.ParserCombinators.Parsec ( src/Text/ParserCombinators/Parsec.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/ParserCombinators/Parsec.o )
 [24 of 25] Compiling Text.ParserCombinators.Parsec.Expr ( src/Text/ParserCombinators/Parsec/Expr.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/ParserCombinators/Parsec/Expr.o )
 [25 of 25] Compiling Text.ParserCombinators.Parsec.Token ( src/Text/ParserCombinators/Parsec/Token.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/ParserCombinators/Parsec/Token.o )
-Installing library in /home/supreet/.stack/snapshots/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/parsec-3.1.13.0-7jIoWXeUFiXFkcrm3qWsZW
+Installing library in /home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/parsec-3.1.13.0-2ikVkMjQMc17NnBgLCrWq0
 Registering library for parsec-3.1.13.0..

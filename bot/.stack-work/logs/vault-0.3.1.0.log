@@ -6,5 +6,5 @@ Building library for vault-0.3.1.0..
 [3 of 5] Compiling Data.Vault.Lazy  ( src/Data/Vault/Lazy.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/Vault/Lazy.o )
 [4 of 5] Compiling Data.Vault.ST.Strict ( src/Data/Vault/ST/Strict.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/Vault/ST/Strict.o )
 [5 of 5] Compiling Data.Vault.Strict ( src/Data/Vault/Strict.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/Vault/Strict.o )
-Installing library in /home/supreet/.stack/snapshots/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/vault-0.3.1.0-E71DJzS4VDu2i86YlW0J93
+Installing library in /home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/vault-0.3.1.0-8j6CHXU11mFBglLXP1xUQW
 Registering library for vault-0.3.1.0..

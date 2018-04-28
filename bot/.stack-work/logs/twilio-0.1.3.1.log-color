@@ -1,3 +1,48 @@
+Configuring twilio-0.1.3.1...
+Warning: The 'license-file' field refers to the file 'LICENSE' which does not
+exist.
+Warning:
+    This package indirectly depends on multiple versions of the same package. This is very likely to cause a compile failure.
+      package deepseq (deepseq-1.4.3.0) requires array-0.5.2.0
+      package text (text-1.2.3.0-5vzuaiASPHn9l43SOJg4ZS) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package streaming-commons (streaming-commons-0.1.19-9oYzlJhwQCIBJtWcATTtSY) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package stm (stm-2.4.5.0-3kNDtbJhQ2Y1eUaHK3uMT5) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package integer-logarithms (integer-logarithms-1.0.2.1-KbTnldbOfLkDrVuX5pjYcw) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package http-types (http-types-0.12.1-GFJ8Js91pih85cYhpVakSj) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package http-client (http-client-0.5.7.0-67xVTUDMBsj6zeW0FAfRCV) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package deepseq (deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package containers (containers-0.5.10.2-62PoZk4ge7VJoCK4TfK0ES) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package cereal (cereal-0.5.5.0-1r3S4LEGz0AGplKDS3qdmG) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package binary (binary-0.8.5.1-LSZ9plbbZraJw71MrhqjwC) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package attoparsec (attoparsec-0.13.2.2-GA6QpqGCPHdGflMH6nE7ja) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package Cabal (Cabal-2.0.1.1-Cv8lQUe77ru7BsixDow3D4) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package pretty (pretty-1.1.3.3) requires deepseq-1.4.3.0
+      package vector (vector-0.12.0.1-Hsy8E07CgDsFPTCSNvYdOP) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package uuid-types (uuid-types-1.0.3-50r95UrWnRXEu8Kg3LM0Wd) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package unordered-containers (unordered-containers-0.2.9.0-LCIcpAUIFUqI7WS4dV2wLP) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package time (time-1.8.0.2-5F8tpJ7Eb3k2SvoODn5IsI) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package text (text-1.2.3.0-5vzuaiASPHn9l43SOJg4ZS) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package tagged (tagged-0.8.5-7vgzKsb1NyFJnT8w3eSNeS) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package scientific (scientific-0.3.5.3-EVW9Dv4gvzzLx1Cxt6zTU9) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package process (process-1.6.1.0-3gsl3rgtuIq7Z00KWaWaRF) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package pretty (pretty-1.1.3.3-ITY9oILDx3oGbBFPQkDuaM) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package network-uri (network-uri-2.6.1.0-LUq7111iSvp7MZCfuX9nEe) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package memory (memory-0.14.16-9d2wC0yNpqVJUFB32huzdE) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package http-client (http-client-0.5.7.0-67xVTUDMBsj6zeW0FAfRCV) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package hourglass (hourglass-0.2.11-99jpZ9VuRb6J2VlvUPpHLf) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package hashable (hashable-1.2.7.0-7pKtmLQeC3p1yIBHpoaqjk) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package dlist (dlist-0.8.0.4-JfPM5plhkCEKZqow3HCSUC) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package cryptonite (cryptonite-0.25-AGVmAgKRlQZGx3RZB9sIDV) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package cookie (cookie-0.4.4-1prYSm0Sg3a5mA6XPMQZPW) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package containers (containers-0.5.10.2-62PoZk4ge7VJoCK4TfK0ES) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package case-insensitive (case-insensitive-1.2.0.11-ElihS1V0bzE3kGdoexkxOR) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package bytestring (bytestring-0.10.8.2-5hPdnGQ2HNS3iq5yfoKxtv) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package blaze-builder (blaze-builder-0.4.1.0-Hz8YjHgtAA5H6O6SkMdmhT) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package attoparsec (attoparsec-0.13.2.2-GA6QpqGCPHdGflMH6nE7ja) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package aeson (aeson-1.2.4.0-ApTJilrjh2UIZHizpUCuDp) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package Cabal (Cabal-2.0.1.1-Cv8lQUe77ru7BsixDow3D4) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package template-haskell (template-haskell-2.12.0.0) requires pretty-1.1.3.3
+      package Cabal (Cabal-2.0.1.1-Cv8lQUe77ru7BsixDow3D4) requires pretty-1.1.3.3-ITY9oILDx3oGbBFPQkDuaM
 Preprocessing library for twilio-0.1.3.1..
 Building library for twilio-0.1.3.1..
 
@@ -6,4 +51,459 @@ Building library for twilio-0.1.3.1..
 [;1m[34m  |[0m[0m
 [;1m[34m3 |[0m[0m {-#LANGUAGE [;1m[35mOverlappingInstances[0m[0m #-}
 [;1m[34m  |[0m[0m[;1m[35m             ^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[0m[0mLICENSE: copyFile: does not exist (No such file or directory)
+[0m[0m[0m[ 1 of 60] Compiling Twilio.Internal.Parser ( src/Twilio/Internal/Parser.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Internal/Parser.o )
+
+[;1msrc/Twilio/Internal/Parser.hs:5:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m5 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m  |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[ 2 of 60] Compiling Twilio.Internal.Request ( src/Twilio/Internal/Request.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Internal/Request.o )
+
+[;1msrc/Twilio/Internal/Request.hs:14:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Exception.Base’ is redundant
+      except perhaps to import instances from ‘Control.Exception.Base’
+    To import instances alone, use: import Control.Exception.Base()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m14 |[0m[0m [;1m[35mimport Control.Exception.Base[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Internal/Request.hs:25:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Network.HTTP.Types.Header’ is redundant
+      except perhaps to import instances from ‘Network.HTTP.Types.Header’
+    To import instances alone, use: import Network.HTTP.Types.Header()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m25 |[0m[0m [;1m[35mimport Network.HTTP.Types.Header[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[ 3 of 60] Compiling Twilio.Types.AddressRequirement ( src/Twilio/Types/AddressRequirement.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Types/AddressRequirement.o )
+[ 4 of 60] Compiling Twilio.Types.AuthToken ( src/Twilio/Types/AuthToken.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Types/AuthToken.o )
+[ 5 of 60] Compiling Twilio.Types.Capability ( src/Twilio/Types/Capability.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Types/Capability.o )
+[ 6 of 60] Compiling Twilio.Types.ISOCountryCode ( src/Twilio/Types/ISOCountryCode.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Types/ISOCountryCode.o )
+[ 7 of 60] Compiling Twilio.Types.Issue ( src/Twilio/Types/Issue.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Types/Issue.o )
+[ 8 of 60] Compiling Twilio.Types.List ( src/Twilio/Types/List.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Types/List.o )
+[ 9 of 60] Compiling Twilio.Types.PriceUnit ( src/Twilio/Types/PriceUnit.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Types/PriceUnit.o )
+[10 of 60] Compiling Twilio.Types.SID ( src/Twilio/Types/SID.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Types/SID.o )
+[11 of 60] Compiling Control.Monad.Twilio ( src/Control/Monad/Twilio.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Control/Monad/Twilio.o )
+
+[;1msrc/Control/Monad/Twilio.hs:20:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m20 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[12 of 60] Compiling Twilio.Types     ( src/Twilio/Types.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Types.o )
+
+[;1msrc/Twilio/Types.hs:21:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Exception’ is redundant
+      except perhaps to import instances from ‘Control.Exception’
+    To import instances alone, use: import Control.Exception()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m21 |[0m[0m [;1m[35mimport Control.Exception[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Types.hs:69:22: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wdeprecations[0m[0m[;1m][0m[0m[;1m
+    In the use of ‘parseUrl’
+    (imported from Network.HTTP.Client, but defined in http-client-0.5.7.0:Network.HTTP.Client.Request):
+    Deprecated: "Please use parseUrlThrow, parseRequest, or parseRequest_ instead"[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m69 |[0m[0m   let Just request = [;1m[35mparseUrl[0m[0m . T.unpack $ baseURL <> suffix
+[;1m[34m   |[0m[0m[;1m[35m                      ^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Types.hs:115:5: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-matches[0m[0m[;1m][0m[0m[;1m
+    Defined but not used: ‘status’[0m[0m
+[;1m[34m    |[0m[0m
+[;1m[34m115 |[0m[0m     [;1m[35mstatus[0m[0m       -> do
+[;1m[34m    |[0m[0m[;1m[35m     ^^^^^^[0m[0m
+[0m[0m[0m[13 of 60] Compiling Twilio.Calls.FeedbackSummary ( src/Twilio/Calls/FeedbackSummary.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Calls/FeedbackSummary.o )
+
+[;1msrc/Twilio/Calls/FeedbackSummary.hs:14:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m14 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[14 of 60] Compiling Twilio.AvailablePhoneNumber ( src/Twilio/AvailablePhoneNumber.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/AvailablePhoneNumber.o )
+
+[;1msrc/Twilio/AvailablePhoneNumber.hs:9:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m9 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m  |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[15 of 60] Compiling Twilio.Internal.Resource ( src/Twilio/Internal/Resource.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Internal/Resource.o )
+[16 of 60] Compiling Twilio.Transcription ( src/Twilio/Transcription.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Transcription.o )
+
+[;1msrc/Twilio/Transcription.hs:14:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m14 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[17 of 60] Compiling Twilio.Transcriptions ( src/Twilio/Transcriptions.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Transcriptions.o )
+[18 of 60] Compiling Twilio.Tokens    ( src/Twilio/Tokens.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Tokens.o )
+
+[;1msrc/Twilio/Tokens.hs:13:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m13 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[19 of 60] Compiling Twilio.ShortCode ( src/Twilio/ShortCode.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/ShortCode.o )
+
+[;1msrc/Twilio/ShortCode.hs:11:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m11 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[20 of 60] Compiling Twilio.ShortCodes ( src/Twilio/ShortCodes.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/ShortCodes.o )
+[21 of 60] Compiling Twilio.Recording ( src/Twilio/Recording.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Recording.o )
+
+[;1msrc/Twilio/Recording.hs:11:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m11 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[22 of 60] Compiling Twilio.Recordings ( src/Twilio/Recordings.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Recordings.o )
+[23 of 60] Compiling Twilio.Queue.Member ( src/Twilio/Queue/Member.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Queue/Member.o )
+
+[;1msrc/Twilio/Queue/Member.hs:12:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m12 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[24 of 60] Compiling Twilio.Queue.Members ( src/Twilio/Queue/Members.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Queue/Members.o )
+[25 of 60] Compiling Twilio.Queue     ( src/Twilio/Queue.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Queue.o )
+
+[;1msrc/Twilio/Queue.hs:14:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m14 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Queue.hs:64:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Worphans[0m[0m[;1m][0m[0m[;1m
+    Orphan instance: instance Delete1 QueueSID
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m64 |[0m[0m [;1m[35minstance Delete1 QueueSID where[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...[0m[0m
+[0m[0m[0m[26 of 60] Compiling Twilio.Queues    ( src/Twilio/Queues.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Queues.o )
+[27 of 60] Compiling Twilio.OutgoingCallerID ( src/Twilio/OutgoingCallerID.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/OutgoingCallerID.o )
+
+[;1msrc/Twilio/OutgoingCallerID.hs:12:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m12 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[28 of 60] Compiling Twilio.OutgoingCallerIDs ( src/Twilio/OutgoingCallerIDs.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/OutgoingCallerIDs.o )
+[29 of 60] Compiling Twilio.Message.Media ( src/Twilio/Message/Media.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Message/Media.o )
+
+[;1msrc/Twilio/Message/Media.hs:13:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m13 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[30 of 60] Compiling Twilio.Message.MediaList ( src/Twilio/Message/MediaList.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Message/MediaList.o )
+[31 of 60] Compiling Twilio.Message.Feedback ( src/Twilio/Message/Feedback.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Message/Feedback.o )
+
+[;1msrc/Twilio/Message/Feedback.hs:13:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m13 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Message/Feedback.hs:15:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Monad.Catch’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Catch’
+    To import instances alone, use: import Control.Monad.Catch()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m15 |[0m[0m [;1m[35mimport Control.Monad.Catch[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Message/Feedback.hs:18:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m18 |[0m[0m [;1m[35mimport Data.Monoid[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Message/Feedback.hs:19:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Data.Scientific’ is redundant
+      except perhaps to import instances from ‘Data.Scientific’
+    To import instances alone, use: import Data.Scientific()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m19 |[0m[0m [;1m[35mimport Data.Scientific[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Message/Feedback.hs:20:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Data.Time.Clock’ is redundant
+      except perhaps to import instances from ‘Data.Time.Clock’
+    To import instances alone, use: import Data.Time.Clock()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m20 |[0m[0m [;1m[35mimport Data.Time.Clock[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Message/Feedback.hs:23:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Monad.Twilio’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Twilio’
+    To import instances alone, use: import Control.Monad.Twilio()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m23 |[0m[0m [;1m[35mimport Control.Monad.Twilio[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Message/Feedback.hs:24:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Twilio.Internal.Parser’ is redundant
+      except perhaps to import instances from ‘Twilio.Internal.Parser’
+    To import instances alone, use: import Twilio.Internal.Parser()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m24 |[0m[0m [;1m[35mimport Twilio.Internal.Parser[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Message/Feedback.hs:25:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Twilio.Internal.Request’ is redundant
+      except perhaps to import instances from ‘Twilio.Internal.Request’
+    To import instances alone, use: import Twilio.Internal.Request()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m25 |[0m[0m [;1m[35mimport Twilio.Internal.Request[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Message/Feedback.hs:26:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Twilio.Internal.Resource’ is redundant
+      except perhaps to import instances from ‘Twilio.Internal.Resource’
+    To import instances alone, use: import Twilio.Internal.Resource()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m26 |[0m[0m [;1m[35mimport Twilio.Internal.Resource as Resource[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Message/Feedback.hs:27:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Twilio.Types’ is redundant
+      except perhaps to import instances from ‘Twilio.Types’
+    To import instances alone, use: import Twilio.Types()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m27 |[0m[0m [;1m[35mimport Twilio.Types[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[32 of 60] Compiling Twilio.Message   ( src/Twilio/Message.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Message.o )
+
+[;1msrc/Twilio/Message.hs:14:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m14 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[33 of 60] Compiling Twilio.Messages  ( src/Twilio/Messages.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Messages.o )
+[34 of 60] Compiling Twilio.Conference.Participant ( src/Twilio/Conference/Participant.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Conference/Participant.o )
+
+[;1msrc/Twilio/Conference/Participant.hs:12:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m12 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[35 of 60] Compiling Twilio.Conference.Participants ( src/Twilio/Conference/Participants.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Conference/Participants.o )
+[36 of 60] Compiling Twilio.Conference ( src/Twilio/Conference.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Conference.o )
+
+[;1msrc/Twilio/Conference.hs:14:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m14 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[37 of 60] Compiling Twilio.Conferences ( src/Twilio/Conferences.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Conferences.o )
+[38 of 60] Compiling Twilio.IncomingPhoneNumber ( src/Twilio/IncomingPhoneNumber.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/IncomingPhoneNumber.o )
+
+[;1msrc/Twilio/IncomingPhoneNumber.hs:11:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m11 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[39 of 60] Compiling Twilio.IncomingPhoneNumbers ( src/Twilio/IncomingPhoneNumbers.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/IncomingPhoneNumbers.o )
+[40 of 60] Compiling Twilio.ConnectApp ( src/Twilio/ConnectApp.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/ConnectApp.o )
+
+[;1msrc/Twilio/ConnectApp.hs:12:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m12 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[41 of 60] Compiling Twilio.ConnectApps ( src/Twilio/ConnectApps.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/ConnectApps.o )
+[42 of 60] Compiling Twilio.Call.Feedback ( src/Twilio/Call/Feedback.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Call/Feedback.o )
+
+[;1msrc/Twilio/Call/Feedback.hs:16:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m16 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[43 of 60] Compiling Twilio.Call      ( src/Twilio/Call.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Call.o )
+
+[;1msrc/Twilio/Call.hs:16:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m16 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[44 of 60] Compiling Twilio.Calls     ( src/Twilio/Calls.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Calls.o )
+
+[;1msrc/Twilio/Calls.hs:92:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Worphans[0m[0m[;1m][0m[0m[;1m
+    Orphan instance: instance Post3 Text Text URI Call
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m92 |[0m[0m [;1m[35minstance Post3 Text Text URI Call where[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...[0m[0m
+[0m[0m[0m[45 of 60] Compiling Twilio.AvailablePhoneNumbers ( src/Twilio/AvailablePhoneNumbers.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/AvailablePhoneNumbers.o )
+[46 of 60] Compiling Twilio.AuthorizedConnectApp ( src/Twilio/AuthorizedConnectApp.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/AuthorizedConnectApp.o )
+
+[;1msrc/Twilio/AuthorizedConnectApp.hs:12:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m12 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[47 of 60] Compiling Twilio.AuthorizedConnectApps ( src/Twilio/AuthorizedConnectApps.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/AuthorizedConnectApps.o )
+[48 of 60] Compiling Twilio.Application ( src/Twilio/Application.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Application.o )
+
+[;1msrc/Twilio/Application.hs:13:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m13 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[49 of 60] Compiling Twilio.Applications ( src/Twilio/Applications.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Applications.o )
+[50 of 60] Compiling Twilio.Address   ( src/Twilio/Address.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Address.o )
+
+[;1msrc/Twilio/Address.hs:12:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m12 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[51 of 60] Compiling Twilio.Addresses ( src/Twilio/Addresses.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Addresses.o )
+[52 of 60] Compiling Twilio.Account   ( src/Twilio/Account.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Account.o )
+
+[;1msrc/Twilio/Account.hs:19:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m19 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[53 of 60] Compiling Twilio.Accounts  ( src/Twilio/Accounts.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/Accounts.o )
+
+[;1msrc/Twilio/Accounts.hs:65:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Worphans[0m[0m[;1m][0m[0m[;1m
+    Orphan instance: instance Post0 Account
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m65 |[0m[0m [;1m[35minstance Post0 Account where[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^...[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Accounts.hs:69:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Worphans[0m[0m[;1m][0m[0m[;1m
+    Orphan instance: instance Post1 Text Account
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m69 |[0m[0m [;1m[35minstance Post1 Text Account where[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/Accounts.hs:74:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Worphans[0m[0m[;1m][0m[0m[;1m
+    Orphan instance: instance Post1 (Maybe Text) Account
+    To avoid this
+        move the instance declaration to the module of the class or of the type, or
+        wrap the type with a newtype and declare the instance on the new type.[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m74 |[0m[0m [;1m[35minstance Post1 (Maybe Text) Account where[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...[0m[0m
+[0m[0m[0m[54 of 60] Compiling Twilio.APIKey    ( src/Twilio/APIKey.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/APIKey.o )
+
+[;1msrc/Twilio/APIKey.hs:13:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m13 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/APIKey.hs:20:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Network.URI’ is redundant
+      except perhaps to import instances from ‘Network.URI’
+    To import instances alone, use: import Network.URI()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m20 |[0m[0m [;1m[35mimport Network.URI[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[55 of 60] Compiling Twilio.APIKeys   ( src/Twilio/APIKeys.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/APIKeys.o )
+
+[;1msrc/Twilio/APIKeys.hs:16:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Data.Text’ is redundant
+      except perhaps to import instances from ‘Data.Text’
+    To import instances alone, use: import Data.Text()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m16 |[0m[0m [;1m[35mimport Data.Text (Text)[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m
+[;1msrc/Twilio/APIKeys.hs:17:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Data.Text.Encoding’ is redundant
+      except perhaps to import instances from ‘Data.Text.Encoding’
+    To import instances alone, use: import Data.Text.Encoding()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m17 |[0m[0m [;1m[35mimport Data.Text.Encoding[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[56 of 60] Compiling Twilio           ( src/Twilio.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio.o )
+[57 of 60] Compiling Twilio.UsageRecord ( src/Twilio/UsageRecord.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/UsageRecord.o )
+
+[;1msrc/Twilio/UsageRecord.hs:9:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m  |[0m[0m
+[;1m[34m9 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m  |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[58 of 60] Compiling Twilio.UsageRecords ( src/Twilio/UsageRecords.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/UsageRecords.o )
+[59 of 60] Compiling Twilio.UsageTrigger ( src/Twilio/UsageTrigger.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/UsageTrigger.o )
+
+[;1msrc/Twilio/UsageTrigger.hs:11:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m11 |[0m[0m [;1m[35mimport Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[60 of 60] Compiling Twilio.UsageTriggers ( src/Twilio/UsageTriggers.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Twilio/UsageTriggers.o )
+LICENSE: copyFile: does not exist (No such file or directory)

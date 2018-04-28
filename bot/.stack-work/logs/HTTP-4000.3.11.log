@@ -100,5 +100,5 @@ Building library for HTTP-4000.3.11..
 [16 of 18] Compiling Network.HTTP.Proxy ( Network/HTTP/Proxy.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/HTTP/Proxy.o )
 [17 of 18] Compiling Network.HTTP     ( Network/HTTP.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/HTTP.o )
 [18 of 18] Compiling Network.Browser  ( Network/Browser.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/Browser.o )
-Installing library in /home/supreet/.stack/snapshots/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/HTTP-4000.3.11-FBeyaSeW8QEGFKa399AaLP
+Installing library in /home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/HTTP-4000.3.11-EiSVluNUvYK1qBLpFUgd54
 Registering library for HTTP-4000.3.11..

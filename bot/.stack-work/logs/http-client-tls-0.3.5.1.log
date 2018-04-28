@@ -1,34 +1,33 @@
 Configuring http-client-tls-0.3.5.1...
-Warning: This package indirectly depends on multiple versions of the same
-package. This is highly likely to cause a compile failure.
-package deepseq-1.4.2.0 requires array-0.5.1.1
-package text-1.2.2.1 requires array-0.5.1.1
-package streaming-commons-0.1.17 requires array-0.5.1.1
-package stm-2.4.4.1 requires array-0.5.1.1
-package http-types-0.9.1 requires array-0.5.1.1
-package http-client-0.5.7.0 requires array-0.5.1.1
-package deepseq-1.4.2.0 requires array-0.5.1.1
-package containers-0.5.7.1 requires array-0.5.1.1
-package cereal-0.5.4.0 requires array-0.5.1.1
-package binary-0.8.3.0 requires array-0.5.1.1
-package pretty-1.1.3.3 requires deepseq-1.4.2.0
-package time-1.6.0.1 requires deepseq-1.4.2.0
-package text-1.2.2.1 requires deepseq-1.4.2.0
-package process-1.4.3.0 requires deepseq-1.4.2.0
-package network-uri-2.6.1.0 requires deepseq-1.4.2.0
-package memory-0.14.3 requires deepseq-1.4.2.0
-package http-client-0.5.7.0 requires deepseq-1.4.2.0
-package hourglass-0.2.10 requires deepseq-1.4.2.0
-package hashable-1.2.6.0 requires deepseq-1.4.2.0
-package cryptonite-0.21 requires deepseq-1.4.2.0
-package cookie-0.4.2.1 requires deepseq-1.4.2.0
-package containers-0.5.7.1 requires deepseq-1.4.2.0
-package case-insensitive-1.2.0.9 requires deepseq-1.4.2.0
-package bytestring-0.10.8.1 requires deepseq-1.4.2.0
-package blaze-builder-0.4.0.2 requires deepseq-1.4.2.0
-Building http-client-tls-0.3.5.1...
-Preprocessing library http-client-tls-0.3.5.1...
-[1 of 1] Compiling Network.HTTP.Client.TLS ( Network/HTTP/Client/TLS.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Network/HTTP/Client/TLS.o )
-Installing library in
-/home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-8.12/8.0.2/lib/x86_64-linux-ghc-8.0.2/http-client-tls-0.3.5.1-BLNzrbImnPU8Zm7ui3AsiP
-Registering http-client-tls-0.3.5.1...
+Warning:
+    This package indirectly depends on multiple versions of the same package. This is very likely to cause a compile failure.
+      package deepseq (deepseq-1.4.3.0) requires array-0.5.2.0
+      package text (text-1.2.3.0-5vzuaiASPHn9l43SOJg4ZS) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package streaming-commons (streaming-commons-0.1.19-9oYzlJhwQCIBJtWcATTtSY) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package stm (stm-2.4.5.0-3kNDtbJhQ2Y1eUaHK3uMT5) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package http-types (http-types-0.12.1-GFJ8Js91pih85cYhpVakSj) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package http-client (http-client-0.5.7.0-67xVTUDMBsj6zeW0FAfRCV) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package deepseq (deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package containers (containers-0.5.10.2-62PoZk4ge7VJoCK4TfK0ES) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package cereal (cereal-0.5.5.0-1r3S4LEGz0AGplKDS3qdmG) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package binary (binary-0.8.5.1-LSZ9plbbZraJw71MrhqjwC) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package pretty (pretty-1.1.3.3) requires deepseq-1.4.3.0
+      package time (time-1.8.0.2-5F8tpJ7Eb3k2SvoODn5IsI) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package text (text-1.2.3.0-5vzuaiASPHn9l43SOJg4ZS) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package process (process-1.6.1.0-3gsl3rgtuIq7Z00KWaWaRF) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package network-uri (network-uri-2.6.1.0-LUq7111iSvp7MZCfuX9nEe) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package memory (memory-0.14.16-9d2wC0yNpqVJUFB32huzdE) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package http-client (http-client-0.5.7.0-67xVTUDMBsj6zeW0FAfRCV) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package hourglass (hourglass-0.2.11-99jpZ9VuRb6J2VlvUPpHLf) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package hashable (hashable-1.2.7.0-7pKtmLQeC3p1yIBHpoaqjk) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package cryptonite (cryptonite-0.25-AGVmAgKRlQZGx3RZB9sIDV) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package cookie (cookie-0.4.4-1prYSm0Sg3a5mA6XPMQZPW) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package containers (containers-0.5.10.2-62PoZk4ge7VJoCK4TfK0ES) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package case-insensitive (case-insensitive-1.2.0.11-ElihS1V0bzE3kGdoexkxOR) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package bytestring (bytestring-0.10.8.2-5hPdnGQ2HNS3iq5yfoKxtv) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package blaze-builder (blaze-builder-0.4.1.0-Hz8YjHgtAA5H6O6SkMdmhT) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+Preprocessing library for http-client-tls-0.3.5.1..
+Building library for http-client-tls-0.3.5.1..
+[1 of 1] Compiling Network.HTTP.Client.TLS ( Network/HTTP/Client/TLS.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Network/HTTP/Client/TLS.o )
+Installing library in /home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/http-client-tls-0.3.5.1-I66o1wlTpey9F8dLR6PVEP
+Registering library for http-client-tls-0.3.5.1..

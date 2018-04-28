@@ -1,8 +1,23 @@
 Configuring RSA-2.3.0...
+Warning:
+    This package indirectly depends on multiple versions of the same package. This is very likely to cause a compile failure.
+      package deepseq (deepseq-1.4.3.0) requires array-0.5.2.0
+      package deepseq (deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package containers (containers-0.5.10.2-62PoZk4ge7VJoCK4TfK0ES) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package cereal (cereal-0.5.5.0-1r3S4LEGz0AGplKDS3qdmG) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package binary (binary-0.8.5.1-LSZ9plbbZraJw71MrhqjwC) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package SHA (SHA-1.6.4.4-IBWo1E6JHHUAHYjmmJQsEX) requires array-0.5.2.0-EPrW8VZih4F3uB2F38JqNo
+      package pretty (pretty-1.1.3.3) requires deepseq-1.4.3.0
+      package time (time-1.8.0.2-5F8tpJ7Eb3k2SvoODn5IsI) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package tagged (tagged-0.8.5-7vgzKsb1NyFJnT8w3eSNeS) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package memory (memory-0.14.16-9d2wC0yNpqVJUFB32huzdE) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package hourglass (hourglass-0.2.11-99jpZ9VuRb6J2VlvUPpHLf) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package containers (containers-0.5.10.2-62PoZk4ge7VJoCK4TfK0ES) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
+      package bytestring (bytestring-0.10.8.2-5hPdnGQ2HNS3iq5yfoKxtv) requires deepseq-1.4.3.0-LrrzFeokLC8Dvtq2AEgWKh
 Preprocessing library for RSA-2.3.0..
 Building library for RSA-2.3.0..
 [1 of 3] Compiling Codec.Crypto.RSA.Pure ( src/Codec/Crypto/RSA/Pure.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Codec/Crypto/RSA/Pure.o )
 [2 of 3] Compiling Codec.Crypto.RSA.Exceptions ( src/Codec/Crypto/RSA/Exceptions.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Codec/Crypto/RSA/Exceptions.o )
 [3 of 3] Compiling Codec.Crypto.RSA ( src/Codec/Crypto/RSA.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Codec/Crypto/RSA.o )
-Installing library in /home/supreet/.stack/snapshots/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/RSA-2.3.0-JM8Lr9wvkQi7j2cYBUg1Fx
+Installing library in /home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/RSA-2.3.0-4FbAl4g7pcnBK1UiEDAweS
 Registering library for RSA-2.3.0..

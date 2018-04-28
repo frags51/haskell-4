@@ -34,32 +34,33 @@ import Reddit.Types.SearchOptions (Order (..))
 import Servant.Client (ClientEnv(ClientEnv), runClientM)
 import Servant.Common.Req
 import System.Environment (getEnv, setEnv)
-
+--Reads from the hook file which has the webhook for our channel and it formats in IO format
 readSlackFile :: FilePath -> IO T.Text
 readSlackFile filename =
   T.filter (/= '\n') . T.pack <$> Prelude.readFile filename
-
+--configIO actually calls the function
 configIO :: IO Config
 configIO =
   Config <$> (readSlackFile "hook")
-
+--checks whether there is a word following the slash command , returns if empty
 parseText :: T.Text -> Maybe T.Text
 parseText text = case T.strip text of
   "" -> Nothing
   x -> Just x
-
+--A monad which returns the topic we're looking for.
 liftMaybe :: Maybe a -> IO a
 liftMaybe = maybe mzero return
 
+--Printpost formats the link to display in the message.
 printPost :: Post -> T.Text
 printPost post = do
   title post <> "\n" <> (T.pack . show . created $ post) <> "\n" <> "http://reddit.com"<> permalink post <> "\n" <> "Score: " <> (T.pack . show . score $ post)
 
---searches for Hot programming posts given input (ie haskell)
+--Hot programming context is searched in reddit
 findQPosts:: T.Text -> RedditT IO PostListing
 findQPosts c = search (Just $ R "programming") (Reddit.Options Nothing (Just 0)) Hot c
 
---gets Reddit posts, and creates the message that will be 
+--Gets the message that will be 
 --posted to Slack. 
 messageOfCommandReddit :: Command -> IO Network.Linklater.Message
 messageOfCommandReddit (Command "redditbot" user channel (Just text)) = do
@@ -71,7 +72,7 @@ messageOfCommandReddit (Command "redditbot" user channel (Just text)) = do
         messageOf =
           FormattedMessage(EmojiIcon "gift") "redditbot" channel
           
---calls *messageOfCommandReddit*, which actually posts the 
+--Redditify actually calls the *messageOfCommandReddit*, which actually posts the 
 --message to Slack after running *stack build*, then *stack 
 --exec redditbot*, and then opening up a Ngrok tunnel at the same port.
 redditify :: Maybe Command -> IO T.Text
@@ -94,7 +95,7 @@ redditify(Just command) = do
 
 main :: IO ()
 main =  do
-	Prelude.putStrLn ("+ Listening on port " <> show port)
+	Prelude.putStrLn ("Accepted")
 	run port (slashSimple redditify)
 	where 
 		port = 3000

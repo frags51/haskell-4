@@ -8,5 +8,5 @@ Building library for psqueues-0.2.6.0..
 [5 of 7] Compiling Data.OrdPSQ      ( src/Data/OrdPSQ.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/OrdPSQ.o )
 [6 of 7] Compiling Data.HashPSQ.Internal ( src/Data/HashPSQ/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/HashPSQ/Internal.o )
 [7 of 7] Compiling Data.HashPSQ     ( src/Data/HashPSQ.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Data/HashPSQ.o )
-Installing library in /home/supreet/.stack/snapshots/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/psqueues-0.2.6.0-4kUoQwUd22cEPDPhTZuJ7q
+Installing library in /home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/psqueues-0.2.6.0-9mj0pduqk22CeHBt2h5cYM
 Registering library for psqueues-0.2.6.0..

@@ -1,0 +1,45 @@
+Preprocessing executable 'Bot' for Bot-0.1.0.0..
+Building executable 'Bot' for Bot-0.1.0.0..
+[1 of 1] Compiling Main             ( Main.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Bot/Bot-tmp/Main.o )
+
+Main.hs:26:1: error:
+    Could not find module ‘Network.Linklater’
+    Use -v to see a list of the files searched for.
+   |
+26 | import Network.Linklater
+   | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+Main.hs:31:1: error:
+    Could not find module ‘Reddit’
+    Use -v to see a list of the files searched for.
+   |
+31 | import Reddit
+   | ^^^^^^^^^^^^^
+
+Main.hs:32:1: error:
+    Could not find module ‘Reddit.Types.Post’
+    Use -v to see a list of the files searched for.
+   |
+32 | import Reddit.Types.Post
+   | ^^^^^^^^^^^^^^^^^^^^^^^^
+
+Main.hs:33:1: error:
+    Could not find module ‘Reddit.Types.SearchOptions’
+    Use -v to see a list of the files searched for.
+   |
+33 | import Reddit.Types.SearchOptions (Order (..))
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Main.hs:34:1: error:
+    Could not find module ‘Servant.Client’
+    Use -v to see a list of the files searched for.
+   |
+34 | import Servant.Client (ClientEnv(ClientEnv), runClientM)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Main.hs:35:1: error:
+    Could not find module ‘Servant.Common.Req’
+    Use -v to see a list of the files searched for.
+   |
+35 | import Servant.Common.Req
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^

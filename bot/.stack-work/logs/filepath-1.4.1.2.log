@@ -1,0 +1,8 @@
+Configuring filepath-1.4.1.2...
+Preprocessing library for filepath-1.4.1.2..
+Building library for filepath-1.4.1.2..
+[1 of 3] Compiling System.FilePath.Posix ( System/FilePath/Posix.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/FilePath/Posix.o )
+[2 of 3] Compiling System.FilePath  ( System/FilePath.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/FilePath.o )
+[3 of 3] Compiling System.FilePath.Windows ( System/FilePath/Windows.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/System/FilePath/Windows.o )
+Installing library in /home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/filepath-1.4.1.2-HBql9nHthCZCIMzZufyT1H
+Registering library for filepath-1.4.1.2..

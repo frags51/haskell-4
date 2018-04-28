@@ -1,12 +1,11 @@
 Configuring pretty-1.1.3.3...
-Building pretty-1.1.3.3...
-Preprocessing library pretty-1.1.3.3...
-[1 of 6] Compiling Text.PrettyPrint.Annotated.HughesPJ ( src/Text/PrettyPrint/Annotated/HughesPJ.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/PrettyPrint/Annotated/HughesPJ.o )
-[2 of 6] Compiling Text.PrettyPrint.Annotated.HughesPJClass ( src/Text/PrettyPrint/Annotated/HughesPJClass.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/PrettyPrint/Annotated/HughesPJClass.o )
-[3 of 6] Compiling Text.PrettyPrint.HughesPJ ( src/Text/PrettyPrint/HughesPJ.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/PrettyPrint/HughesPJ.o )
-[4 of 6] Compiling Text.PrettyPrint.HughesPJClass ( src/Text/PrettyPrint/HughesPJClass.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/PrettyPrint/HughesPJClass.o )
-[5 of 6] Compiling Text.PrettyPrint.Annotated ( src/Text/PrettyPrint/Annotated.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/PrettyPrint/Annotated.o )
-[6 of 6] Compiling Text.PrettyPrint ( src/Text/PrettyPrint.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Text/PrettyPrint.o )
-Installing library in
-/home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-8.12/8.0.2/lib/x86_64-linux-ghc-8.0.2/pretty-1.1.3.3-7lpYzjWh6DlE0KjMC7hiJM
-Registering pretty-1.1.3.3...
+Preprocessing library for pretty-1.1.3.3..
+Building library for pretty-1.1.3.3..
+[1 of 6] Compiling Text.PrettyPrint.Annotated.HughesPJ ( src/Text/PrettyPrint/Annotated/HughesPJ.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/PrettyPrint/Annotated/HughesPJ.o )
+[2 of 6] Compiling Text.PrettyPrint.Annotated ( src/Text/PrettyPrint/Annotated.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/PrettyPrint/Annotated.o )
+[3 of 6] Compiling Text.PrettyPrint.Annotated.HughesPJClass ( src/Text/PrettyPrint/Annotated/HughesPJClass.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/PrettyPrint/Annotated/HughesPJClass.o )
+[4 of 6] Compiling Text.PrettyPrint.HughesPJ ( src/Text/PrettyPrint/HughesPJ.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/PrettyPrint/HughesPJ.o )
+[5 of 6] Compiling Text.PrettyPrint ( src/Text/PrettyPrint.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/PrettyPrint.o )
+[6 of 6] Compiling Text.PrettyPrint.HughesPJClass ( src/Text/PrettyPrint/HughesPJClass.hs, .stack-work/dist/x86_64-linux/Cabal-2.0.1.0/build/Text/PrettyPrint/HughesPJClass.o )
+Installing library in /home/supreet/Desktop/marvin/haskell-4/bot/.stack-work/install/x86_64-linux/lts-11.6/8.2.2/lib/x86_64-linux-ghc-8.2.2/pretty-1.1.3.3-ITY9oILDx3oGbBFPQkDuaM
+Registering library for pretty-1.1.3.3..
